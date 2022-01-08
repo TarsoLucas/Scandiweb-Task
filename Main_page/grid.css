@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav{
+      display: flex;
+      justify-content:space-between;
+      padding: 10px;
+  }
+  
+  #header-buttons{
+    display: flex;
+  }
+  
+  ul{
+      list-style-type: none;
+  }
+  
+  hr{
+      border-top: 2px solid rounded rgba(160, 194, 221, 0.637);
+      border-radius: 30%;
+  }
+  
+  .button{
+   border-radius: 5px;
+  }
+  
+  #addbutton{
+    background: linear-gradient(50deg, lightblue 
+    30%, blue);
+  }
+  
+  #delbutton{
+    background: linear-gradient(50deg, red 60%, maroon);
+  }
+  
+  div{
+    border: 1px solid black;
+    padding: 3px;
+    width: 150vh;
+    margin: 5px;
+  }
+  
