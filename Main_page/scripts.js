@@ -1,0 +1,4 @@
+function areaCheckBox(){
+    document.oncl
+    
+}

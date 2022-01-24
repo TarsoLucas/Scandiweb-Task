@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+  }
+
+  nav{
+      display: flex;
+      flex-direction: column;
+      min-height: 500px;
+      justify-content:flex-start;
+  }
+
+  ul li{
+      list-style-type: none;
+      margin-left: 3px;
+  }
+
+  .saveButton{
+      background-color: lightgreen;
+      padding: 3px;
+      border-radius: 5px;
+  }
+
+  .deleteButton{
+    background-color: lightgray;
+    padding: 3px;
+    border-radius: 5px;
+  }
+
+  ul{
+      display: flex;
+  }
+
+  span{
+    display: flex;
+    margin: 10px;
+  }
+
+  input, select{
+      margin-left: 5px;
+      border-radius: 5px;
+  }
+
+  footer{
+      display: flex;
+      justify-content: center;
+  }
+
+  input:focus{
+    border: #9ecaed;
+    border-color: #9ecaed;
+    box-shadow: 0.5px 0.5px 10px 5px #9ecaed;
+  }
+
+  .saveButton:hover {
+    border-color: #9ecaed;
+    box-shadow: 0.5px 0.5px 10px 5px #9ecaed;
+  }
+
+
+  .deleteButton:hover{
+    border-color: #9ecaed;
+    box-shadow: 0.5px 0.5px 10px 5px #9ecaed;
+  }
